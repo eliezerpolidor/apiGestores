@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>apiGestores</name>
+    </assembly>
+    <members>
+        <member name="M:apiGestores.Controllers.GestoresController.Get">
+            <summary>
+            Listado de Gestores
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:apiGestores.Controllers.GestoresController.Get(System.Int32)">
+            <summary>
+            Busqueda de un Gestor en la Base de Datos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:apiGestores.Controllers.GestoresController.Post(apiGestores.Models.Gestores_Bd)">
+            <summary>
+            Agregar un Gestor 
+            </summary>
+            <param name="gestor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:apiGestores.Controllers.GestoresController.Put(System.Int32,apiGestores.Models.Gestores_Bd)">
+            <summary>
+            Modificar Información de Gestor
+            </summary>
+            <param name="id"></param>
+            <param name="gestor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:apiGestores.Controllers.GestoresController.Delete(System.Int32)">
+            <summary>
+            Borrar un Gestor de la Base de Datos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

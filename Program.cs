@@ -2,6 +2,7 @@
 Learn Web Api ASP.NET Core CRUD 
 1) crear una base de datos en SQL SERVER
 2) crear una tabla 
+3) abrir visual studio y seleccionar proyecto nuevo
 referencia Link:
 https://www.youtube.com/watch?v=Usj0J4rUumI
 Learn Swagger link:

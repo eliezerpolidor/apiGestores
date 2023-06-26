@@ -20,6 +20,7 @@ namespace apiGestores
 {
     public class Startup
     {
+        private readonly string myCors = "myCors";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -30,6 +31,16 @@ namespace apiGestores
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddCors();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: myCors, builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                    .AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Conexion")));
             
@@ -48,6 +59,14 @@ namespace apiGestores
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            //app.UseCors(options =>
+            //{
+            //    options.WithOrigins("https://localhost:44366/api/gestores");
+            //    options.AllowAnyHeader();  //.AllowAnyMethod();
+            //    options.AllowAnyMethod();
+            //});
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -56,6 +75,8 @@ namespace apiGestores
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(myCors);
 
             app.UseAuthorization();
 

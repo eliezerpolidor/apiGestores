@@ -70,3 +70,10 @@ C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestor
 C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\MediatR.Contracts.dll
 C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\obj\Debug\netcoreapp3.1\apiGestores.xml
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\eliez\Documents\EliezerP\ProgramStudy\Course2022\VisualStudio\apiGestores\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

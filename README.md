@@ -1,16 +1,19 @@
 # apiGestores
 CRUD FullStack React JS, ASP.NET Core y SQL Server con EntityFramework.
 En este resposirotio estoy creando de ejemplo un CRUD FullStack usando en el lado del Frontend para crear la Interface del Usuario(UI) el React JS y del lado del Backend 
-en la logica del negocio estoy usando ASP.NET CORE WWeb Api, para un servicio RESTFULL HTTP esta va a tener una Arquitectura MVC de una sola capa, y para guardar los 
+en la logica del negocio estoy usando ASP.NET CORE Web Api, para un servicio RESTFULL HTTP esta va a tener una Arquitectura MVC de una sola capa, y para guardar los 
 datos se va a usar SQL Server esta la estoy conectando con la logica del negocio con EntityFramework. 
 Para esto se plantea lo siguiente: 
 - Crear una tabla llamada gestores la cual tendran los siguiente campos:un id el cual va hacer autoincrementable, el nombre del gesotr, su lanzamiento y quien lo 
 desarrollo.
 - En la UI debe mostrar la lista de gestores, dando la posibilidad de ingresar un gestor nuevo, editar o eliminar uno existente.
+- Despues del planteamiento anterior voy a colocar a manera referencial lo que hare para resolver la situacón que se plantea:
+- Siempre se empiza de adentro hacia afuera, esto es que lo primero que deberia hacer es crear la base de datos y las tablas asi como la refencia entre ella, para ello vamos a usar SQL SERVER la versión 19.
+- Seguidamente vamos a entrar a Visual Studio yo use la vesión 19, seleccionar "proyecto nuevo" y en este escoger "ASP.NET CORE Web Api" que tenga un controlador de ejemplo y el servicio RESTFull HTTP, para poder crear el servicio CRUD.
 
 
 
-una ASP.NET CORE WWeb Api, para un servicio RESTFULL HTTP
+una ASP.NET CORE Web Api, para un servicio RESTFULL HTTP
 se esta usando la Arquitectura MVC de una sola capa, 
 
 
